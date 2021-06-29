@@ -1,0 +1,526 @@
+
+/*
+color palette:
+gesso white: #dddcd8
+swedish grey: #c8c3bf
+classic navy: #2e3440
+noir (default font): #16171b
+espresso: #5a4c43;
+zomp green (links): #39a78e;
+sea green (visited links): #2a7a68;
+dark brown (active button): #4e423a;
+*/
+
+
+/*set default width to include padding & border*/
+* {
+  box-sizing: border-box;
+}
+
+/*by default images will take up full width of screen*/
+img {
+  width: 100%;
+}
+
+/*some images are way to big. want option to cap them.*/
+.restrain {
+  max-width: 800px;
+}
+.super_restrain {
+  max-width: 400px;
+}
+
+/*want to center those images.*/
+.centered {
+  display: block;
+  text-align: center;
+}
+
+/*set default typography*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #16171b;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  color: #5a4c43;
+}
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+h3 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+li {
+  line-height: 2;
+}
+/*hyperlink styling; default to zomp green*/
+a {
+  color: #39a78e;
+  text-decoration: none;
+  font-weight: 400;
+}
+/*while hovering they are underlined and bolded*/
+a:hover {
+color: #39a78e;
+text-decoration: underline;
+font-weight: 700;
+}
+/*when tabbed they are same as hovering*/
+a:focus {
+color: #39a78e;
+text-decoration: underline;
+font-weight: 700;
+}
+
+/*style buttons*/
+.button {
+  display: inline-block;
+  background-color: #39a78e;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 8px 16px;
+  margin: 0px 16px;
+  border-radius: 24px;
+  transition-property: padding, border-radius, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.button:visited {
+  background-color: #39a78e;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 400;
+}
+.button:hover {
+  background-color: #2a7a68;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+padding: 8px 24px;
+border-radius: 8px;
+box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+}
+.button:active {
+  background-color: #5a4c43 !important;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+padding: 8px 24px;
+border-radius: 8px;
+box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+}
+.button:focus {
+  background-color: #39a78e;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+}
+/*style CTAs that take you out of app with lighter color*/
+.button.contact {
+  display: inline-block;
+  background-color: #c8c3bf;
+  color: #5a4c43;
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 8px 16px;
+  margin: 0px 16px 16px 16px;
+  border-radius: 20px;
+  transition-property: padding, border-radius, box-shadow;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.button.contact:visited {
+  background-color: #c8c3bf;
+  color: #5a4c43;
+text-decoration: none;
+font-weight: 400;
+}
+.button.contact:hover {
+  background-color: #99968a;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+padding: 8px 24px;
+border-radius: 8px;
+box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+}
+/*turn espresso when pressed*/
+.button.contact:active {
+  background-color: #5a4c43;
+  color: #ffffff;
+text-decoration: none;
+font-weight: 600;
+padding: 8px 24px;
+border-radius: 8px;
+box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+}
+.button.contact:focus {
+  background-color: #c8c3bf;
+  color: #5a4c43;
+text-decoration: none;
+font-weight: 600;
+}
+
+/*layout styling*/
+/*create a wrapper-container to hold layout*/
+.container {
+  padding: 0 15px;
+}
+/*add top margins between sections*/
+.row {
+  margin: 25px 0;
+}
+/*place a border between sections*/
+/**home**/
+#home .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dddcd8;
+}
+/**about**/
+#about .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dddcd8;
+}
+/**work**/
+#beyondcomfort .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dddcd8;
+}
+
+#social a:hover {
+text-decoration: none;
+opacity: 0.6;
+}
+
+/*limit size of logo*/
+.logo {
+  max-width: 48px;
+  margin-top: 16px;
+  margin-left: 7px;
+}
+.logo:hover {
+  max-width: 52px;
+}
+
+/*style header*/
+header {
+  background-color: rgba(22,23,27,.9);
+  padding: 10px 0 4px;
+  box-shadow: 0px 6px 4px rgba(46, 52, 64, 0.5);
+  width: 100%;
+  position: fixed;
+}
+/*style nav*/
+nav {
+  display: inline-block;
+  width: 100%;
+}
+/*remove bullets and extra margin*/
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+/*style text and spacing*/
+nav > ul > li > a {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #f4f3f2 !important;
+}
+/*change to white and underlined when hovering*/
+nav > ul > li > a:hover {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #ffffff !important;
+}
+/*turn bold when pressed*/
+nav > ul > li > a:active {
+  font-weight: 700;
+  color: #ffffff !important;
+}
+/*same as hover*/
+nav > ul > li > a:focus {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #ffffff !important;
+}
+
+/*press the hero section right up to the header (replace margin with padding)*/
+#hero {
+  padding: 20px 0;
+  display: block;
+  width: 100%;
+}
+
+
+/*this looks crappy but want to remember the general code.
+.logo:hover {
+  box-shadow: 3px 3px 2px rgba(46, 52, 64, 0.5);
+  border-radius: 100%;
+}*/
+/*height of the fixed header, so main isn't hidden*/
+
+main {
+  padding-top: 120px;
+}
+
+/*adust for medium screens (50% splits)*/
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+  } /*no longer center header*/
+  nav {
+      width: auto;
+      float: right;
+  }
+  .logo {
+    margin: 15px 0px;
+  } /*so that it lines up with nav*/
+  .col-md-6 {
+    width: 50%;
+  } /*two columns on tablets*/
+  [class*="col-"] {
+    float: left;
+    padding: 0px 10px;
+  } /*so columns are side-by-side and spaced*/
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } /*clear the flow so that things aren't jumbling*/
+  main {
+    padding-top: 107px;
+  }
+}
+/*60:40 split for large screens*/
+@media only screen and (min-width: 1024px) {
+      /*no longer center header*/
+      nav {
+          width: auto;
+          float: right;
+      }
+      .logo {
+        margin: 11px 7px 0px 7px;
+      } /*so that it lines up with nav*/
+      .col-lg-7 {
+        width: 60%;
+      }
+      .col-lg-5 {
+        width: 40%;
+      }
+      [class*="col-"] {
+        float: left;
+        padding: 0px 10px;
+      } /*so columns are side-by-side and spaced*/
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      } /*clear the flow so that things aren't jumbling*/
+      .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+      }/*so that content isn't really large*/
+      }
+
+/*can't seem to get this section to not jumble in the table on M screens*/
+#research {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+  .one-col {
+    width: 100%;
+  }
+}
+
+/*style toggle menu*/
+/*hide everything except the menu icon*/
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+/*set the position of the menu & link it to JS*/
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+/*style the menu*/
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 8px 0;
+  border-top: 1px solid rgba(221, 220, 216,0.5);
+  text-align: right;
+  font-size: 0.75em;
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+@media only screen and (min-width: 641px) {
+  /*put buttons on same line on large screens*/
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  nav > ul {
+   margin: 1em 0
+ }
+  nav > ul > li {
+    display: inline-block;
+    position: relative;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+}
+
+.icon {
+  max-height: 42px;
+  margin: 14px;
+  text-align: center;
+  margin-left: 0px;
+}
+
+/*****************************************************/
+button.accordion {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  color: #5a4c43;
+  font-size: 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  content: '\f055';
+  font-family: "fontawesome";
+  font-size: 14px;
+  padding: 8px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: '\f056';
+}
+
+button.accordion:hover, button.accordion.is-open {
+  background-color: #dddcd8;
+}
+
+.accordion-content {
+  background-color: white;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+/**************************************/
+@keyframes jumpout {
+from {transform: translate(400px,0);}
+to {transform: translate(70px,0)}
+}
+
+#woman {
+  animation-duration: 3s;
+  animation-name: jumpout;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+@keyframes elementsappear {
+  0% {opacity: 0%;}
+  50% {opacity: 50%;}
+  100% {opacity: 100%;}
+}
+#elements {
+  animation-duration: 6s;
+  animation-name: elementsappear;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.float {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 12px 12px;
+  background-color: #39a78e;
+  color: #ffffff !important;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+  transition-duration: 0.5s
+}
+.float:hover {
+  background-color: #2a7a68;
+  color: #ffffff;
+text-decoration: none !important;
+font-weight: 600;
+padding: 16px 16px;
+border-radius: 8px;
+box-shadow: 0px 2px 2px rgba(46, 52, 64, 0.5);
+}
+
+@media only screen and (max-width: 641px) {
+	.float {
+    font-size: 0.75em;
+    font-weight: 400;
+    padding: 8px 8px;
+    bottom:60px;
+  }
+}

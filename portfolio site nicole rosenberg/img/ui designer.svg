@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="717.09" height="750.015" viewBox="0 0 717.09 750.015">
+  <g id="ui_designer" data-name="ui designer" transform="translate(-140.991 0)">
+    <g id="woman" transform="translate(70)">
+      <circle id="Ellipse_28" data-name="Ellipse 28" cx="24.814" cy="24.814" r="24.814" transform="translate(82.054 188.51)" fill="#2a7a68"/>
+      <circle id="hair" cx="39.2" cy="39.2" r="39.2" transform="translate(101.959 207.438)" fill="#2a7a68"/>
+      <path id="ankle_up" data-name="ankle up" d="M357.312,659.033,338.085,693.05s-25.143-25.143-11.832-31.8l20.706-6.655Z" transform="translate(-170.96 -74.993)" fill="#dbc6b5"/>
+      <path id="ankle" d="M152.335,675l5.916,25.143L140.5,706.057l-5.916-28.84Z" fill="#dbc6b5"/>
+      <path id="legs" d="M342.522,498.79l21.591,36.34s68.627,63.265,44.964,86.928-53.244,42.891-53.244,42.891l-13.311-9.613s11.131-21.675,19.591-33.277,14.249-13.133,14.249-13.133-17.615-8.362-33.84-18.02-31.059-20.612-31.059-20.612l14.05,182.655-21.445,5.916L261.456,570.294s-20.245-55.462,15.99-85.042Z" transform="translate(-170.96 -74.993)" fill="#2f2e41"/>
+      <path id="shoe_down" data-name="shoe down" d="M316.639,774.394s11.092-14.05,16.269-1.479a175.7,175.7,0,0,1,8.134,26.622s19.227,28.84-10.353,25.143-20.706-17.008-20.706-17.008a9.9,9.9,0,0,1-4.437-9.613c.74-6.655,4.437-22.185,4.437-22.185S313.682,769.218,316.639,774.394Z" transform="translate(-170.96 -74.993)" fill="#5a4c43"/>
+      <path id="shoe_up" data-name="shoe up" d="M347.329,677.89s6.286,6.286-4.067,16.639c0,0-1.479,28.84-14.79,25.882s-17.748-39.193-16.269-42.891-2.218-31.059,6.655-30.319,19.966,10.353,19.966,10.353-19.227,17.748-.74,29.58C338.085,687.134,342.892,685.285,347.329,677.89Z" transform="translate(-170.96 -74.993)" fill="#5a4c43"/>
+      <path id="neck" d="M292.236,392.076l56.2,1.479c-12.385-17.576-14.716-38.31-9.613-61.378l-36.975,7.395C308.97,358.4,309.093,374.548,292.236,392.076Z" transform="translate(-170.96 -74.993)" fill="#d1beae"/>
+      <path id="Path_138" data-name="Path 138" d="M285.451,492.688l66.825,20.04L378.5,396.505a22.209,22.209,0,0,0-19.616-20.6l-20.055-2.314-36.235,3.7-17.138,4.843a22.128,22.128,0,0,0-16.087,22.292Z" transform="translate(-170.96 -74.993)" fill="#99968a"/>
+      <path id="Path_139" data-name="Path 139" d="M358.051,489.689l14.05,16.269,34.017-36.235L386.88,409.064c-3.085-15.3-8.524-29.259-23.852-32.194l-9.414-1.8,20.706,84.3Z" transform="translate(-170.96 -74.993)" fill="#99968a"/>
+      <path id="Path_140" data-name="Path 140" d="M358.748,512.557l10.4-13.994-8.874-8.874-14.413,3.76a12.218,12.218,0,0,0-5.933,20.066h0a12.218,12.218,0,0,0,18.825-.958Z" transform="translate(-170.96 -74.993)" fill="#dbc6b5"/>
+      <path id="Path_141" data-name="Path 141" d="M290.018,494.126l-14.05,16.269-34.017-36.235L258.622,413.4c3.085-15.3,11.091-29.16,26.419-32.1l9.413-1.8-20.706,84.3Z" transform="translate(-170.96 -74.993)" fill="#99968a"/>
+      <path id="Path_142" data-name="Path 142" d="M289.321,516.994,278.925,503l8.874-8.874,14.413,3.76a12.218,12.218,0,0,1,5.933,20.066h0a12.218,12.218,0,0,1-18.825-.958Z" transform="translate(-170.96 -74.993)" fill="#dbc6b5"/>
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="25.673" cy="25.673" r="25.673" transform="translate(120.907 224.137)" fill="#dbc6b5"/>
+      <path id="bangs" d="M345.048,322.415h-43.9l-13.328-18.032c13.112-11.477,29.523-13.534,47.824-10.192Z" transform="translate(-170.96 -74.993)" fill="#2a7a68"/>
+    </g>
+    <g id="phone">
+      <path id="case" d="M948.145,247.94h-4V138.395a63.4,63.4,0,0,0-63.4-63.4H648.657a63.4,63.4,0,0,0-63.4,63.4V739.369a63.4,63.4,0,0,0,63.4,63.4H880.744a63.4,63.4,0,0,0,63.4-63.4V325.916h4Z" transform="translate(-170.96 -74.993)" fill="#5a4c43"/>
+      <path id="screen" d="M883.3,91.488H853.007a22.495,22.495,0,0,1-20.827,30.991H699.221a22.495,22.495,0,0,1-20.827-30.991H650.1a47.348,47.348,0,0,0-47.348,47.348V738.928A47.348,47.348,0,0,0,650.1,786.276H883.3a47.348,47.348,0,0,0,47.348-47.348h0V138.835A47.348,47.348,0,0,0,883.3,91.488Z" transform="translate(-170.96 -74.993)" fill="#fff"/>
+      <g id="elements">
+        <path id="big_ellipse_outline" data-name="big ellipse outline" d="M773.04,320.016a73,73,0,1,1,73-73,73,73,0,0,1-73,73Zm0-144a71,71,0,1,0,71,71,71,71,0,0,0-71-71Z" transform="translate(-170.96 -74.993)" fill="#c8c3bf"/>
+        <path id="little_ellipse_outline" data-name="little ellipse outline" d="M759.04,741.016a37,37,0,1,1,37-37,37,37,0,0,1-37,37Zm0-72a35,35,0,1,0,35,35,35,35,0,0,0-35-35Z" transform="translate(-170.96 -74.993)" fill="#c8c3bf"/>
+        <path id="big_box_outline" data-name="big box outline" d="M1029.04,523.411H879.461V373.833H1029.04Zm-147.579-2H1027.04V375.833H881.461Z" transform="translate(-170.96 -74.993)" fill="#c8c3bf"/>
+        <path id="little_box_outline" data-name="little box outline" d="M713.153,603.412H632.04V522.3h81.112Zm-79.112-2h77.112V524.3H634.04Z" transform="translate(-170.96 -74.993)" fill="#c8c3bf"/>
+        <circle id="Ellipse_31" data-name="Ellipse 31" cx="60" cy="60" r="60" transform="translate(502.081 100.023)" fill="#2a7a68"/>
+        <rect id="big_box" data-name="big box" width="131.181" height="131.181" transform="translate(684.905 273.194)" fill="#99968a"/>
+        <rect id="little_box" data-name="little box" width="70.322" height="70.322" transform="translate(554.378 504.345) rotate(180)" fill="#99968a"/>
+        <circle id="little_ellipse" data-name="little ellipse" cx="30" cy="30" r="30" transform="translate(538.081 593.023)" fill="#39a78e"/>
+      </g>
+    </g>
+  </g>
+</svg>
